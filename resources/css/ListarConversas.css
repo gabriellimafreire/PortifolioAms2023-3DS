@@ -1,0 +1,75 @@
+h1{
+    text-align: center;
+    color: #275950!important;
+    margin-bottom: 20px;
+    margin-top: 20px!important;
+}
+body{
+    background-color: #64CCC9!important;
+}
+.pesquisa{
+    margin-top: 30px;
+}
+.contato{
+    margin-top: 30px;
+    max-width: 800px;
+    background-color: #41BFB3;
+    border: 1px solid #D9D9D9;
+    text-align: left!important;
+    padding: 10px;
+    border-radius: 10px;
+}
+.col-2{
+    text-align: center;
+    width: 15%!important;
+}
+.imagem{
+    display: inline-block;
+    
+}
+.foto{
+    height: 100px;
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    border-radius: 100px!important;
+    z-index: 1;
+}
+.foto img{
+    display: inline-block;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+
+}
+.pesquisa{
+    max-width: 800px!important;
+}
+
+@media screen and (max-width : 767px) {
+    .col-2{
+        width: 30%!important;
+    }
+
+}
+
+@media screen and (max-width : 290px) {
+    .contato{
+        display: block !important;
+    }
+    .contato .row{
+    
+        display: block !important;
+        text-align: center;
+        
+    }
+    .contato .col-2{
+        width: 100% !important;
+    }
+    .contato .row *{
+        display: inline-block !important;
+    }
+
+}
+

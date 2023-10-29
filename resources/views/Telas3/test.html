@@ -1,0 +1,72 @@
+<html>
+
+<head>
+        <meta lang="pt-br">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+        <title>Testando Formulário em etapas || @gabriellfreire</title>
+</head>
+
+<body>
+
+<form id="formulario"><!--Criando Formulário-->
+
+    <ul id="progress"><!--Nível de progresso-->
+
+        <li class="ativo">DADOS PESSOAIS</li>
+        <li>MEIOS DE CONTATO</li>
+        <li>SOBRE DOAÇÃO</li>
+
+    </ul><!--Encerrando nível-->
+
+<fieldset>
+
+    <h2>DADOS PESSOAIS</h2>
+    <h4>Fornecendo Dados para Cadastro</h4>
+
+    <input type="text" name="Nome" placeholder="Nome"><!--Inserindo Nome-->
+    <input type="text" name="SobreNome" placeholder="SobreNome"><!--Inserindo SobreNome-->
+    <input type="text" name="Data_Nascimento" placeholder="Data_Nascimento"><!--Inserindo Data de Nascimento-->
+    <input type="text" name="CPF" placeholder="CPF"><!--Inserindo CPF-->
+    <input type="text" name="RG" placeholder="RG"><!--Inserindo RG-->
+    <input type="text" name="C_Endereco" placeholder="Comprovante de Endereço"><!--Inserindo Endereco-->
+
+    <input type="submit" name="next" class="next acao" value="Próximo"><!--button-->
+
+</fieldset>
+
+<fieldset>
+
+    <h2>MEIOS DE CONTATO</h2>
+    <h4>Fornecendo Dados para Contato</h4>
+
+    <input type="text" name="Email" placeholder="Email"><!--Inserindo Email-->
+    <input type="password" name="Senha" placeholder="Senha"><!--Inserindo Senha-->
+    <input type="text" name="Fone" placeholder="Fone"><!--Inserindo Telefone-->
+
+    <input type="submit" name="prev" class="prev acao" value="Anterior"><!--button-->
+    <input type="submit" name="next" class="next acao" value="Próximo"><!--button-->
+
+</fieldset>
+
+<fieldset>
+
+    <h2>SOBRE DOAÇÃO</h2>
+    <h4>Fornecendo Dados para Doação</h4>
+
+    <input type="text" name="Ap_ONG" placeholder="Seguimento de ONG que apoia"><!--Inserindo Seguimento de ONG-->
+    <input type="text" name="Cartao" placeholder="Cartão/Cartões que deseja cadastrar para doações monetárias"><!--Inserindo Cartão-->
+
+    <input type="submit" name="prev" class="prev acao" value="Anterior"><!--button-->
+    <input type="submit" name="next" class="next acao" value="Próximo"><!--button-->
+
+</fieldset>
+
+</form><!--Encerrando Formulário-->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/functions.js"></script>
+
+</body>
+</html>

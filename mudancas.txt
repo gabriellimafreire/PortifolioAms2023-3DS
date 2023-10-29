@@ -1,0 +1,13 @@
+Mudanças
+	Models
+	Arquivo
+	Conversa
+	Doacao_Material
+	Doacao_Monetaria
+	Doacoes
+	Doador
+	Endereco
+
+	Migrations
+	Migration Cartão excluida
+	doacao_monetaria -> retirei os campos do cartão

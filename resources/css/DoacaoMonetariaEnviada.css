@@ -1,0 +1,104 @@
+body{
+    background-color: #64CCC9!important;
+}
+.Contato h4{
+    margin-bottom: 40px;
+}
+.Contato p{
+    font-weight: bold!important;
+    font-size: large;
+}
+.Titulos{
+    text-align: center!important;
+    color: #275950!important;
+    margin-bottom: 30px!important;
+    margin-top: 20px!important;
+}
+.Titulos h4{
+    color: black!important;
+    
+}
+.DadosDoacao{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.DadosDoacao p{
+    color:#275950;
+    display: inline-block;
+
+}
+.DoacaoMaterial{
+    margin-bottom: 30px;
+}
+.DoacaoMaterial h3{
+    color: black;
+}
+.DoacaoMaterial p{
+    color: black;
+    display: inline-block;
+}
+.DadosCartao h2{
+    color: #275950!important;
+
+}
+.DadosCartao h3{
+    color: white!important;
+}
+.DadosCartao{
+    width: 100%!important;
+  
+}
+.DadosCartao input{
+    display: block!important;
+}
+.Contato{
+    margin-top: 70px;
+    max-width: 1000px!important;
+    
+}
+.chat{
+    display: inline-block;
+}
+.texto{
+    display: inline-block;
+}
+.chat img{
+    
+    width: 100px!important;
+    border: 1px solid black;
+}
+.Contato h4{
+    margin-bottom: 40px;
+}
+.Contato p{
+    font-weight: bold!important;
+    font-size: large;
+}
+.MeioPagamento{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #275950;
+}
+.MeioPagamento img{
+    margin-top: 20px;
+    max-width: 200px;
+    max-height: 200px;
+}
+.formulario{
+    display: inline-block;
+    width: 40%;
+}
+@media screen and (max-width : 770px) {
+.Titulos{
+    text-align: center;
+}
+.DadosDoacao{
+    text-align: center;
+}
+.DoacaoMaterial{
+    text-align: center;
+}
+.MeioPagamento{
+    text-align: center;
+}
+}

@@ -1,0 +1,85 @@
+h1{
+    text-align: center;
+    color: #275950!important;
+    margin-bottom: 20px;
+    margin-top: 20px!important;
+}
+body{
+    background-color: #64CCC9!important;
+}
+.imagem{
+    text-align: center;
+}
+.col img{
+    display: inline-block!important;
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 10px !important;
+}
+.submit{
+    margin-top: 20px;
+    text-align: end;
+}
+.submit button{
+    display: inline-block!important;
+    background-color: #275950 !important;
+    font-weight: bold !important;
+    padding: 10px !important;
+}
+.atualizar{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.desativar{
+    text-align: center;
+}
+.desativar button{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background-color: red !important;
+    border: 1px solid red;
+    display: inline-block!important;
+}
+.atualizar input{
+    background-color: #9BF2EA !important;
+    border: 2px solid black !important;
+    
+}
+.col input{
+    background-color: #9BF2EA !important;
+    border: 2px solid black !important;
+}
+select{
+    background-color: #9BF2EA !important;
+    border: 2px solid black !important;
+}
+button{
+    background-color: #275950 !important;
+    font-weight: bold !important;
+    padding: 10px !important;
+    border: none !important;
+    margin-bottom: 10px;
+}
+.senha{
+    margin-bottom: 20px;
+}
+label{
+    font-size: 18px !important;
+    margin-top: 5px;
+}
+
+.alert-success{
+    background-color: #92E5AB !important;
+}
+@media screen and (max-width : 570px) {
+    .atualizar .col{
+        display: block!important;
+    }
+    .atualizar .row{
+        display: block;
+    }
+    .atualizar img{
+        max-width: 250px;
+        max-height: 250px;
+    }
+}

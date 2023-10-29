@@ -1,0 +1,144 @@
+body{
+    min-height: 100vh!important;
+    position: relative !important;
+}
+
+.main-footer{
+    display: block!important;
+    text-align: right;
+    background-color: #41BFB3;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+}
+.main-footer a{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.main-footer a{
+    color: black;
+    text-decoration: none;
+}
+.main-footer .action{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.img1-footer{
+    width: 20px;
+    height:20px;
+    margin-left: 10px;
+
+}
+.img2-footer{
+    width: 20px;
+    height:20px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.QS{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.Info{
+    margin-left: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+.logo{
+    width: 55px;
+    height:55px;
+}
+.parte{
+    display: inline-block!important;
+}
+.main-footer p, img{
+    display: inline-block!important;
+}
+a{
+    color: black!important;
+    text-decoration: none!important;
+}
+.container-fluid button{
+    border: none !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+#divBusca{
+    width: calc(100% - 700px) !important;
+    min-width: 200px;
+   
+}
+#divBusca input{
+    width: 100% !important;
+}
+.nav{
+    margin-left: 20px !important;
+}
+.logo{
+    width: 50px !important;
+    height:50px !important;
+}
+.setab{
+    width: 30px !important;
+    height:30px !important;
+}
+.users{
+    width: 40px !important;
+    height:40px !important;
+}
+.notification{
+    width: 30px !important;
+    height:30px !important;
+}
+.botoes *{
+    display: inline-block;
+}
+
+.popover{
+    padding: 10px;
+    width: 90%;
+    max-width: 500px !important;
+}
+
+.popover ul{
+    list-style: none;
+
+    
+}
+
+.popover li{
+    margin-left: -10px;
+    width: 100%;
+    margin-top:10px;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+@media screen and (max-width : 990px) {
+    .collapse{
+        order: 2 !important;
+        display: grid;
+        grid-auto-flow: row;
+    }
+    .botoes{
+        order: 1 !important;
+    }
+
+    .navbar-nav{
+        order: 1 !important;
+    }
+    #divBusca{
+        order: 2 !important;
+        width: 100% !important;
+    }
+
+
+
+}

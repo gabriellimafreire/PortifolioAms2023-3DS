@@ -1,0 +1,65 @@
+.body{
+    background-color: #64CCC9;
+}
+h2, p{
+    text-align: center;
+    
+}
+.title{
+    color:#275950;
+}
+.card{
+    width: 70%;
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.395);
+    padding: 20px;
+    max-width: 800px !important;
+    margin-top: 100px;
+    display: grid !important;
+    justify-content: center;
+}
+.logocaf{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 100%;
+    display: inline-block !important;
+
+}
+.foto{
+    display: inline-block;
+}
+.imagem{
+    text-align: center;
+}
+
+.botaoEnviar{
+    display: grid;
+    justify-content: end !important;
+}
+
+@media screen and (max-width : 572px) {
+
+    .card{
+        width: 100%;
+    }
+    .card p{
+        font-size: 23px;
+    }
+
+    .botoes{
+        text-align: center !important;
+        display: grid;
+        grid-auto-flow: row;
+        justify-content: center;
+    }
+
+    .card button,a{
+        margin-top: 20px;
+        max-width: 200px;
+        display: inline-block !important;
+        text-align: center !important;
+    }
+
+}
+
+

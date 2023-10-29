@@ -1,0 +1,178 @@
+
+        /* Fontes */
+.Titulo01 {
+    color: #275950;
+    font-family: sans-serif, Kaushan-Script;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Titulo02 {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.Titulo03 {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.estilo01 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.estilo02 {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.estilo03 {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.estilo04 {
+    color: #000;
+    font-family: Inter;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+        /*cores de fundo */
+.bgt {
+    background-color: aquamarine;
+}
+
+.bgescuro {
+    background-color:#275950;
+}
+
+.bgescuro2 {
+    background-color:#26874E;
+}
+
+.bgbranco {
+    background-color: #FAF3F3;
+}
+
+.bgt
+
+        /* Códigos de Ajuste */
+
+.asd {
+    width: 143px;
+    height: 69px;
+}
+
+.asd2 {
+    width: 680px;
+    height: 69px;
+}
+
+.btn-bd-pesquisa {
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: var(--bd-violet-bg);
+    --bs-btn-border-color: var(--bd-violet-bg);
+    --bs-btn-hover-color: var(--bs-white);
+  }
+
+
+        /* Containers */
+
+.alinhamento {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+        /* Imagens */
+.imagemfit {
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.etiqueta1 {
+    z-index: 10;
+    background-color: white; 
+    top: 100px;
+    position: relative;
+    margin-right: 100px;
+}
+
+.ong{
+    text-align: center !important;
+    
+}
+
+.listaOng{
+    padding: 20px !important;
+}
+
+.listaOng img{
+    display: inline-block !important;
+    max-width: 200px !important;
+    max-height: 200px !important;
+    width: 100% !important;
+}
+.texto{
+    width: 100% !important;
+}
+
+/* modal */
+
+.modal-body{
+    text-align: center;
+}
+.modal-body img{
+    display: inline-block;
+}
+.modal-content{
+    background-color: #64CCC9!important;
+}
+
+@media screen and (max-width : 770px) {
+
+    .ong{
+        width: 100% !important;
+        max-width: 100% !important;
+        padding: 30px;
+    }
+
+    .listaOngs{
+        padding: 30px !important;
+    }
+
+
+}

@@ -1,0 +1,89 @@
+body{
+    background-color: #64CCC9!important;
+}
+.col{
+    text-align: center;
+
+}
+.card{
+    padding: 15px;
+    border-radius: 15px;
+    display: inline-block !important;
+    height: 400px !important;
+}
+
+.card p{
+    text-align: justify;
+}
+
+.col{
+    display: inline-block  !important;
+}
+
+.necessidades{
+    position: relative;
+}
+
+.lista{
+    overflow-x: hidden ;
+    overflow-y: hidden ;
+    display: grid !important;
+    grid-auto-flow: column !important;
+
+}
+
+.proximo{
+    position: absolute;
+    top: calc(50% - 35px);
+    border: none;
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    background-color: #275950 !important;
+    justify-content: end;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    right: 10px;
+
+}
+
+.anterior{
+    position: absolute;
+    top: calc(50% - 35px);
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    background-color: #275950 !important;
+    display: grid;
+    justify-content: end;
+    left: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.col img{
+    width: 100% !important;
+    max-height: 200px !important;
+}
+.card{
+    width: 15rem !important; 
+}
+
+@media screen and (max-width : 750px) {
+    .proximo{
+        display: none !important;
+    }
+    .anterior{
+        display: none !important;
+    }
+    .lista{
+        overflow-x: auto !important;
+    }
+}

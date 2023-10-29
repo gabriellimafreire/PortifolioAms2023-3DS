@@ -1,0 +1,98 @@
+body{
+    background-color: #64CCC9!important;
+}
+.opcoes{
+    display: grid!important;
+    align-items: center !important;
+    justify-content: end !important;
+    text-align: right!important;
+}
+.opcoes img{
+    display: inline-block!important;
+    margin-left: 5px;
+}
+.col{
+    text-align: left;
+}
+.col input{
+    display: inline-block !important;
+}
+.col img{
+    display: inline-block !important;
+}
+.parte{
+
+    width: 200px;
+    width: 20%;
+    text-align: left;
+
+}
+.parte *{
+    display: inline-block !important;
+    margin-left: 10px;
+
+}
+.contato{
+    background-color: #9BF2EA;
+    padding: 10px;
+}
+
+.telaMensagem{
+    display: block!important;
+    height: calc(100vh - 204px);
+    width: 100%;
+    overflow-y: auto;
+    position: relative !important;
+    
+}
+.campoMensagem{
+    margin-top: 10px;
+    width: 100%;
+}
+.campoMensagem input{
+    margin-bottom: 10px;
+}
+.img{
+    text-align: right;
+    width: 90px !important;
+}
+.img img{
+    display: inline-block;
+}
+.fotoPerfil{
+    background-color: white;
+    border-radius: 50px;
+}
+.mensagem{
+    margin-top: 30px;
+    margin-left: 10px;
+    background-color: white;
+    padding: 10px;
+    width: 40%;
+    border-radius: 10px;
+    min-width: 300px !important;
+    display: inline-block;
+}
+.Enviada{
+    width: 100%;
+    text-align: right;
+}
+.Enviada .mensagem{
+    text-align: left !important;
+    background-color: #9BF2EA;
+    margin-right: 10px;
+}
+@media screen and (max-width : 767px) {
+    .telaMensagem{
+        height: calc(100vh - 314px);
+    }
+    .parte{
+        width: 70% !important;
+        max-width: 70% !important;
+    }
+    .opcoes{
+        width: 30% !important;
+        max-width: 30% !important;
+    }
+
+}

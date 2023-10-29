@@ -1,0 +1,108 @@
+.container-sm{
+    max-width: 900px!important;
+    
+}
+body{
+    background-color: #64CCC9!important;
+}
+.pesquisa{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    position: sticky!important;
+    top: 10px;
+    
+}
+.Notificacoes{
+    width: 100%;
+    padding: 10px;
+    background-color: #275950;
+
+}
+.Notificacoes h5{
+    display: inline-block;
+    color: #9BF2EA;
+    font-weight: bold;
+    
+}
+.NumeroFundo{
+    border-radius: 40%;
+    background-color: #64CCC9;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    
+    
+}
+.NumeroFundo h5{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+   
+}
+.Lista li{
+    background-color: rgba(155, 242, 234,0.6);
+    text-decoration: none!important;
+    border-radius: 10px;
+    margin-bottom:20px;
+    padding: 5px;
+    border: 1px solid #275950;
+    
+    
+}
+.Lista li h6{
+    text-align: center;
+}
+.Lista ul{
+    
+    margin-top:40px!important;
+    list-style: none!important;
+    padding-left: 0!important;
+}
+.Foto{
+    display: inline-block;
+    margin-right: 10px;
+  
+}
+.Foto img{
+    max-width: 120px!important;
+    max-height: 120px!important;
+}
+.Descricao{
+    display: inline-block;
+    float: right!important;
+    margin-left: auto;
+    width: 100%;
+   
+    
+    
+}
+
+.Lista .container{
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width : 767px) {
+    .Texto{
+        display: none;
+    }
+    
+}
+@media screen and (min-width : 767px) {
+    .Texto{
+        display: block!important;
+    }
+    
+}
+
+.TituloNecessidade{
+    font-weight: bolder!important;
+    color: #275950;
+}
+.CorTexto{
+    color: #275950;
+    font-weight: bolder;
+}

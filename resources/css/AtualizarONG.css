@@ -1,0 +1,164 @@
+h1{
+    text-align: center;
+    color: #275950!important;
+    margin-bottom: 20px;
+    margin-top: 20px!important;
+}
+h5{
+    color:#275950 !important;
+}
+body{
+    background-color: #64CCC9!important;
+}
+.imagem{
+    text-align: center;
+}
+.col img{
+    display: inline-block!important;
+    max-width: 70%;
+    max-height: 70%;
+    border-radius: 10px !important;
+}
+.submit{
+    margin-top: 20px;
+    text-align: end;
+    margin-bottom: 20px;
+}
+.submit button{
+    display: inline-block!important;
+    background-color: #275950 !important;
+    font-weight: bold !important;
+    padding: 10px !important;
+}
+.atualizar{
+    margin-top: 30px;
+}
+.desativar{
+    text-align: center;
+}
+.desativar button{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background-color: red!important;
+    border: 1px solid red;
+    display: inline-block!important;
+}
+.tabela{
+    max-width: 800px!important;
+    width: 90%!important;
+
+}
+h2{
+    display: inline-block;
+    color: #275950!important;
+    text-align: center!important;
+    margin-top: 40px!important;
+    margin-bottom: 20px!important;
+}
+thead th{
+    background-color: rgba(0,0,0,0)!important;
+}
+td{
+    background-color: #9BF2EA!important;
+    border: none!important;
+    padding: 15px!important;
+}
+tr{
+    border: none!important;
+    border-radius: 5px!important;
+}
+.col-7 input{
+    background-color: #9BF2EA !important;
+    border: 2px solid black !important;
+}
+.responsavelLegal input{
+    background-color: #9BF2EA !important;
+    border: 2px solid black !important;
+}
+.senha input{
+    background-color: #9BF2EA !important;
+    border: 2px solid black !important;
+}
+select{
+    background-color: #9BF2EA !important;
+    border: 2px solid black !important;
+}
+button{
+    background-color: #275950 !important;
+    font-weight: bold !important;
+    padding: 10px !important;
+    border: none !important;
+}
+.Pagamento{
+    text-align: center;
+}
+.Pagamento button{
+    margin-top: 10px;
+    background-color: green!important;
+}
+label{
+    font-size: 18px !important;
+    margin-top: 5px;
+}
+
+.botao{
+    font-weight: bold;
+    color:#275950 !important;
+    background-color: rgba(0,0,0,0) !important;
+    display: inline-block !important;
+    
+}
+
+.lista{
+    border: 1px solid black;
+    border-radius: 5px;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+.lista ul{
+    list-style: none;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: -20px;
+    display: inline-block;
+
+}
+
+.lista .listaEnderecos{
+    text-align: center;
+}
+
+.lista li{
+    background-color: #9BF2EA;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+    width: 100%;
+}
+
+.alert-success{
+    background-color: #92E5AB !important;
+}
+
+@media screen and (max-width : 770px) {
+    .col-7{
+        margin-top: 30px!important;
+        width: 100% !important;
+    }
+    .imagem img{
+        width: 60%!important;
+        height: 60%!important;
+        min-width: 150px;
+        min-height: 200px;
+    }
+}
+@media screen and (min-width : 770px) {
+    .responsavelLegal{
+        max-width: 800px!important;
+    }
+    .senha{
+        max-width: 800px!important;
+    }
+}

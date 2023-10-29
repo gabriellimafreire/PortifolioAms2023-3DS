@@ -1,0 +1,25 @@
+.fundo{
+    background-image: url(../img/Imagem\ de\ fundo.png);
+}
+.titulo{
+    color: white;
+    background-color: #275950;
+    font-size: 150%;
+}
+.fcard{
+    background-color:#9BF2EA;
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.395);
+}
+.main-footer{
+    display: flex;
+    justify-content: center;
+    background-color: #41BFB3;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.logo{
+    width: 55px;
+    height:55px;
+}
+
+

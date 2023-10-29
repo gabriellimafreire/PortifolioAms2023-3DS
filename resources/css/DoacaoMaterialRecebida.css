@@ -1,0 +1,176 @@
+body{
+    background-color: #64CCC9!important;
+}
+.Descricao{
+    height: 100%!important;
+    max-height: 500px!important;
+    min-height: 200px!important;
+    max-width: 1000px!important;
+    
+    
+}
+.Descricao h4{
+    margin-bottom: 18px;
+}
+.Descricao textarea{
+    width: 100%!important;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    height: 100%!important;
+    max-height: 700px;
+    min-height: 200px;
+}
+.Campo{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 970px;
+    padding: 10px!important;
+}
+.Descricao h4{
+    margin-left: 10px;
+}
+
+
+.AreaFoto{
+    margin-top:20px;
+    text-align: left;
+    max-width: 1000px!important;
+    padding: 10px!important;
+}
+.AreaFoto img{
+    display: inline-block!important;
+    width: 200px;
+    height: 200px;
+}
+.AreaFoto h4{
+    margin-bottom: 30px;
+    
+}
+.AreaFoto label{
+    margin-top: 20px;
+    background-color: gray;
+    padding: 10px;
+    margin-left: auto!important;
+    color: white;
+    font-weight: bold!important;
+    background-color: #275950!important;
+}
+.AreaFoto img{
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    display: inline-block;
+}
+.Fotos{
+    width: 100%;
+    border: 1px solid black;
+    padding: 15px;
+    background-color: #41BFB3;
+    border-radius: 10px;
+}
+.Contato{
+    margin-top: 70px;
+    max-width: 1000px!important;
+    
+}
+.chat{
+    display: inline-block;
+}
+.texto{
+    display: inline-block;
+}
+.chat img{
+    
+    width: 100px!important;
+    border: 1px solid black;
+}
+.Contato h4{
+    margin-bottom: 40px;
+}
+.Contato p{
+    font-weight: bold!important;
+    font-size: large;
+}
+.Titulos{
+    text-align: center;
+    color: #275950;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.Titulos h4{
+    color: black!important;
+    
+}
+.DadosDoacao{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.DadosDoacao p{
+    color:#275950;
+    display: inline-block;
+}
+.DoacaoMaterial h3{
+    color: #275950;
+}
+.DoacaoMaterial p{
+    color: #275950;
+    display: inline-block;
+}
+.Descricao h4{
+    color: #275950;
+}
+.AreaFoto h4{
+    color: #275950;
+}
+.titulo h4{
+    color:#275950 !important;
+}
+.Botao{
+    margin-left: auto!important;
+    margin-right: auto!important;
+    font-size: 25px!important;
+    font-weight: bolder!important;
+    color: white !important;
+    background-color: #275950;
+    border: none !important;
+}
+.imagens{
+    background-color: #41BFB3;
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 1000px !important;
+    width: 90% !important;
+}
+.titulo{
+    max-width: 1000px !important;
+    width: 90% !important;
+    margin-top: 10px !important;
+}
+@media screen and (max-width : 570px) {
+    .AreaFoto img{
+        max-width: 70%!important;
+        display: block!important;
+        margin-left: auto!important;
+        margin-right: auto!important;
+        
+    }
+    .AdicionarImagem{
+        display: flex!important;
+        flex-direction: row!important;
+        justify-content: center!important;
+    }
+    .Previsualizacao{
+     
+        display: flex!important;
+        flex-direction: column!important;
+        align-items: center!important;
+        
+    }
+    .Previsualizacao img{
+        margin-left: 10px!important;
+        margin-right: auto!important;
+        margin-left: auto!important;
+    }
+    
+}

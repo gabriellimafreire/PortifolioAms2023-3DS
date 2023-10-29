@@ -1,0 +1,71 @@
+body{
+    background-color: #64CCC9!important;
+}
+.Contato h4{
+    margin-bottom: 40px;
+}
+.Contato p{
+    font-weight: bold!important;
+    font-size: large;
+}
+.Titulos{
+    text-align: center;
+    color: #275950;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.Titulos h4{
+    color: black!important;
+    
+}
+.DadosDoacao{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.DadosDoacao p{
+    color:#275950;
+    display: inline-block;
+}
+.DoacaoMaterial h4{
+    color: black;
+}
+.DoacaoMaterial h3{
+    color: #275950;
+}
+.DoacaoMaterial h3{
+    color: black;
+}
+.DoacaoMaterial p{
+    color: #275950;
+    display: inline-block;
+}
+.MeioPagamento{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #275950;
+}
+.MeioPagamento img{
+    margin-top: 20px;
+    max-width: 200px;
+    max-height: 200px;
+}
+.chat img{
+    
+    width: 100px!important;
+    border: 1px solid black;
+}
+
+@media screen and (max-width : 770px) {
+    .Titulos{
+        text-align: center;
+    }
+    .DadosDoacao{
+        text-align: center;
+    }
+    .DoacaoMaterial{
+        text-align: center;
+    }
+    .MeioPagamento{
+        text-align: center;
+    }
+    }

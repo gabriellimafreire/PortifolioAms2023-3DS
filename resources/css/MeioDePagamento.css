@@ -1,0 +1,87 @@
+.Opcoes{
+    margin-bottom: 20px;
+}
+.Opcoes label{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    background-color: #275950;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 10px;
+}
+.Opcoes h2{
+    margin-top: 30px;
+    color: #275950;
+}
+h3{
+    color: #275950!important;
+}
+.Opcoes .valor{
+    display: inline-block;
+}
+
+body{
+    background-color: #64CCC9!important;
+}
+.Pagamento{
+
+}
+.escolher{
+    width: 30%!important;
+    margin: 10px;
+    left: 0;
+    margin-bottom: auto!important;
+    box-sizing: border-box;
+}
+.dadosCartao{
+    width: 40%!important;
+    margin: 10px;
+    margin-bottom: 0;
+    right: auto;
+}
+.Pagamento ul{
+    list-style: none;
+    background-color: #9BF2EA;
+    border: 3px solid rgba(39, 89, 80, 0.30);
+    border-radius: 10px;
+    display: flexbox;
+    
+}
+.Pagamento ul li{
+    border-top: 1px solid black;
+    margin-left: -30px;
+    padding: 5px;
+}
+.botao{
+    text-align: right;
+    margin-top: 10px!important;
+    margin-bottom: 10px!important;
+}
+button{
+    background-color: #275950!important;
+}
+input{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #9BF2EA!important;
+}
+
+@media screen and (max-width : 770px) {
+
+    .row{
+        display: block!important;
+    }
+    .dadosCartao{
+        width: 90%!important;
+   
+    }
+    .escolher{
+        width: 90%!important;
+    }
+
+
+
+}

@@ -1,0 +1,79 @@
+body{
+    background-color: #64CCC9!important;
+}
+h1{
+    text-align: center;
+    color: #275950!important;
+    margin-bottom: 30px!important;
+    margin-top: 20px;
+}
+h2{
+    color: #275950!important;
+    text-align: center;
+    margin-bottom: 30px!important;
+}
+h4{
+    color: #275950!important;
+}
+
+.Contato{
+    margin-top: 70px;
+    max-width: 1000px!important;
+    
+}
+.chat{
+    display: inline-block;
+}
+.texto{
+    display: inline-block;
+}
+.chat img{
+    
+    width: 100px!important;
+    border: 1px solid black;
+}
+.Contato h4{
+    margin-bottom: 40px;
+}
+.Contato p{
+    font-weight: bold!important;
+    font-size: large;
+}
+.Opcoes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 90%!important;
+}
+.Opcoes img{
+    margin: 20px;
+    background-color:rgba(0,0,0,0);
+    border: 1px solid black;
+    max-height: 64px;
+    max-width: 40%;
+
+
+}
+.Imagem{
+    max-height: 20%!important;
+    width: 20%!important;
+    max-width: 25%!important;
+}
+@media screen and (max-width : 768px) {
+    .Opcoes img{
+        max-width: 50%!important;
+        max-height: 80%!important;
+        width: 50%!important;
+    }
+
+    .Opcoes{
+        display: flex!important;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+}
+

@@ -1,0 +1,70 @@
+h1{
+    text-align: center;
+    color: #275950!important;
+    margin-bottom: 20px;
+    margin-top: 20px!important;
+}
+body{
+    background-color: #64CCC9!important;
+}
+
+.submit{
+    margin-top: 20px;
+    text-align: end;
+}
+.submit input{
+    display: inline-block!important;
+    background-color: #275950 !important;
+    font-weight: bold !important;
+    padding: 10px !important;
+    border: none !important;
+}
+.atualizar{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    max-width: 900px !important;
+}
+.desativar{
+    text-align: center;
+}
+.imagens{
+    margin-top: 20px!important;
+    background-color: #41BFB3;
+    padding: 30px;
+    border-radius: 10px;
+}
+.atualizar input{
+    background-color: #9BF2EA;
+    border: 2px solid black;
+    
+}
+select{
+    background-color: #9BF2EA !important;
+    border: 2px solid black !important;
+}
+button{
+    background-color: #275950 !important;
+    font-weight: bold !important;
+    padding: 10px !important;
+    border: none !important;
+    
+}
+label{
+    font-size: 18px !important;
+    margin-top: 5px;
+}
+.tipo label{
+    margin-top: 0px !important;
+}
+@media screen and (max-width : 570px) {
+    .atualizar .col{
+        display: block!important;
+    }
+    .atualizar .row{
+        display: block;
+    }
+    .atualizar img{
+        max-width: 250px;
+        max-height: 250px;
+    }
+}

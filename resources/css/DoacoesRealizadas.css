@@ -1,0 +1,81 @@
+h1{
+    text-align: center;
+    color: #275950!important;
+    margin-bottom: 20px;
+    margin-top: 20px!important;
+}
+body{
+    background-color: #64CCC9!important;
+}
+.ordenar{
+    display: inline-block!important;
+}
+.ordenar img{
+    display: inline-block!important;
+}
+.ordenar label{
+    display: inline-block!important;
+}
+.ordenar select{
+    display: inline-block!important;
+}
+.tabela{
+    overflow-y: auto;
+    overflow-x: auto;
+    max-height: 400px;
+}
+
+.col{
+    text-align: right!important;
+    position: relative!important;
+    width: 100%;
+}
+.pesquisa{
+    text-align: center !important;
+}
+.ordenar{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+input{
+    background-color: rgba(0,0,0,0)!important;
+    border: 1px solid black!important;
+}
+.input{
+    display: inline-block;
+    width: 70%;
+}
+.procurar{
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.procurar select{
+    background-color: rgba(0,0,0,0);
+    border: none;
+}
+
+thead{
+    border: none!important;
+}
+tbody{
+   border: 1px solid black!important;
+   border-radius: 15px !important;
+}
+td{
+    margin-left: 100px!important;
+    background-color: #9BF2EA!important;
+    padding-top: 25px!important;
+    padding-bottom: 25px!important;
+}
+th{
+    background-color: rgba(0,0,0,0)!important;
+}
+td img{
+    margin-left: 15px;
+   background-color: white!important;
+   border-radius: 30px;
+}

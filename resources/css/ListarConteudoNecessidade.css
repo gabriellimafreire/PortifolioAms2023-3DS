@@ -1,0 +1,97 @@
+body{
+    
+}
+
+.Foto{
+        display: inline-block;
+        background-color: red;
+        left: 0!important;
+}
+.fotoOng{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 5;
+    left: 0!important;
+
+
+}
+.fundoImg{
+    width: 100px;
+    height: 100px;
+    background-color: #4C77CC;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+.fotoOng img{
+    
+    border-radius: 90px;
+   
+    z-index: 5!important;
+    
+
+
+}
+.fotoNecessidade{
+    z-index: 3!important;
+}
+
+.Descricao{
+
+  display: flex;
+  align-items: center; 
+  font-size: 22px;
+}
+.TituloNecessidade{
+   
+    z-index: 10!important;
+}
+.Titulo{
+    background-color: #2E8474;
+    padding: 10px;
+    text-align: center;
+    
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #64CCC9;
+      
+    
+}
+.Necessidade{
+    margin-top: -5vh!important;
+    background-color: rgba(155, 242, 234, 0.60);
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    
+    
+    
+}
+.Meta{
+    text-align: left;
+    color:#275950;
+}
+.Meta{
+    display: inline-block;
+    text-align: left;
+}
+.Quantidade{
+    display: inline-block;
+}
+.Total{
+    display:flex;
+}
+.TextoDescricao{
+    text-align: justify;
+}
+.Botao{
+    background-color: #275950!important;
+    font-weight: bold!important;
+    float:right!important;
+    border: 1px solid #275950!important;
+}

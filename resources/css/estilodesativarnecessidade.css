@@ -1,0 +1,87 @@
+.body{
+    background-color: #64CCC9 !important;
+}
+.main-footer{
+    display: flex;
+    justify-content: right;
+    background-color: #41BFB3;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.main-footer p{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.main-footer .action{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+h2, p{
+    text-align: center;
+}
+.card{
+    width: 70%;
+    box-shadow: 3px 3px 0px rgba(0, 0, 0, 0.395);
+    padding: 20px;
+    max-width: 800px !important;
+    margin-top: 100px;
+}
+.img1-footer{
+    width: 20px;
+    height:20px;
+    margin-left: 10px;
+
+}
+.img2-footer{
+    width: 20px;
+    height:20px;
+    margin-left: 10px;
+
+}
+.logo{
+    width: 55px;
+    height:55px;
+}
+.QS{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.Info{
+    margin-left: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.botaoEnviar{
+    display: grid;
+    justify-content: end !important;
+}
+
+@media screen and (max-width : 572px) {
+
+    .card{
+        width: 100%;
+    }
+    .card p{
+        font-size: 23px;
+    }
+
+    .botoes{
+        text-align: center !important;
+        display: grid;
+        grid-auto-flow: row;
+        justify-content: center;
+    }
+
+    .card button,a{
+        margin-top: 20px;
+        max-width: 200px;
+        width: 100%;
+        display: inline-block !important;
+    }
+
+}
+
